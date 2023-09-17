@@ -19,7 +19,7 @@ public class Medico {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    private long id ;
+    private Long id ;
     private String nome;
     private String email;
     private String crm;
@@ -30,8 +30,7 @@ public class Medico {
     @Embedded
     private Endereco endereco;
 
-    public Medico(DadosCadastroMedicos dados) {
-
+    public Medico(DadosCadastroMedico dados) {
         this.nome = dados.nome();
         this.email = dados.email();
         this.crm = dados.crm();
