@@ -1,7 +1,8 @@
 package med.voll.api.doMain.usuario;
 
 
-import jakarta.persistence.*;
+import jakarta.persistence.*
+        ;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
