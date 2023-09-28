@@ -45,7 +45,7 @@ public class MedicoController {
     public ResponseEntity atualizar(@RequestBody @Valid DadosAtualizacaoMedico dados) {
 
         var medico = repository.getReferenceById(dados.id());
-        medico.atualizarImformações(dados);
+        // medico.atualizarImformações(dados);
         return ResponseEntity.ok(new DadosDetalhamentoMedico(medico));
 
     }
