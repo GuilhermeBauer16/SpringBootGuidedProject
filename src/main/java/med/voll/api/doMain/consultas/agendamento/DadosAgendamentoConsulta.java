@@ -1,9 +1,8 @@
-package med.voll.api.doMain.consultas;
+package med.voll.api.doMain.consultas.agendamento;
 
 import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotNull;
 import med.voll.api.doMain.medico.Especialidade;
-import org.springframework.cglib.core.Local;
 
 import java.time.LocalDateTime;
 
