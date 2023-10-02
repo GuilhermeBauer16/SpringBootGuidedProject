@@ -1,11 +1,11 @@
-package med.voll.api.doMain.consultas;
+package med.voll.api.doMain.consulta;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.api.doMain.consultas.cancelamento.MotivoCancelamento;
+import med.voll.api.doMain.consulta.cancelamento.MotivoCancelamento;
 import med.voll.api.doMain.medico.Medico;
 import med.voll.api.doMain.paciente.Paciente;
 

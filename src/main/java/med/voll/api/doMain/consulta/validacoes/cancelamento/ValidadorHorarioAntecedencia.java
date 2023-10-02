@@ -1,8 +1,8 @@
-package med.voll.api.doMain.consultas.validacoes.cancelamento;
+package med.voll.api.doMain.consulta.validacoes.cancelamento;
 
 import med.voll.api.doMain.ValidacaoException;
-import med.voll.api.doMain.consultas.ConsultaRepository;
-import med.voll.api.doMain.consultas.cancelamento.DadosCancelamentoConsulta;
+import med.voll.api.doMain.consulta.ConsultaRepository;
+import med.voll.api.doMain.consulta.cancelamento.DadosCancelamentoConsulta;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

@@ -1,7 +1,7 @@
-package med.voll.api.doMain.consultas.validacoes.agendamento;
+package med.voll.api.doMain.consulta.validacoes.agendamento;
 
 import med.voll.api.doMain.ValidacaoException;
-import med.voll.api.doMain.consultas.agendamento.DadosAgendamentoConsulta;
+import med.voll.api.doMain.consulta.agendamento.DadosAgendamentoConsulta;
 import org.springframework.stereotype.Component;
 
 import java.time.Duration;

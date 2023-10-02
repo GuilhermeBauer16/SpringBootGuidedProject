@@ -1,10 +1,10 @@
 package med.voll.api.controller;
 
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
-import med.voll.api.doMain.consultas.agendamento.AgendaDeConsultas;
-import med.voll.api.doMain.consultas.agendamento.DadosAgendamentoConsulta;
-import med.voll.api.doMain.consultas.agendamento.DadosDetalhamentoConsulta;
-import med.voll.api.doMain.consultas.cancelamento.DadosCancelamentoConsulta;
+import med.voll.api.doMain.consulta.agendamento.AgendaDeConsultas;
+import med.voll.api.doMain.consulta.agendamento.DadosAgendamentoConsulta;
+import med.voll.api.doMain.consulta.cancelamento.DadosCancelamentoConsulta;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("consultas")
+@SecurityRequirement(name = "bearer-key")
 public class ConsultaController {
 
     @Autowired

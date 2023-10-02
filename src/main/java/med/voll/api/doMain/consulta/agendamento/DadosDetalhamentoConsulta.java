@@ -1,8 +1,6 @@
-package med.voll.api.doMain.consultas.agendamento;
+package med.voll.api.doMain.consulta.agendamento;
 
-import jakarta.validation.constraints.Future;
-import jakarta.validation.constraints.NotNull;
-import med.voll.api.doMain.consultas.Consulta;
+import med.voll.api.doMain.consulta.Consulta;
 
 import java.time.LocalDateTime;
 

@@ -1,4 +1,4 @@
-package med.voll.api.doMain.consultas;
+package med.voll.api.doMain.consulta;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

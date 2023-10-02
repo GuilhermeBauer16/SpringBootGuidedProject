@@ -1,4 +1,4 @@
-package med.voll.api.doMain.consultas.cancelamento;
+package med.voll.api.doMain.consulta.cancelamento;
 
 public enum MotivoCancelamento {
 

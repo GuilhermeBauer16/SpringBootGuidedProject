@@ -1,8 +1,8 @@
-package med.voll.api.doMain.consultas.validacoes.agendamento;
+package med.voll.api.doMain.consulta.validacoes.agendamento;
 
 import med.voll.api.doMain.ValidacaoException;
-import med.voll.api.doMain.consultas.ConsultaRepository;
-import med.voll.api.doMain.consultas.agendamento.DadosAgendamentoConsulta;
+import med.voll.api.doMain.consulta.ConsultaRepository;
+import med.voll.api.doMain.consulta.agendamento.DadosAgendamentoConsulta;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
